@@ -1,11 +1,11 @@
 {
-  "name": "certain-comet",
+  "name": "cvamine2233",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
