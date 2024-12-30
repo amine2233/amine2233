@@ -21,6 +21,17 @@
       --color-button-accent-hover: 0, 185, 255;
       --color-button-muted: 226, 232, 240;
     }
+    [data-theme="purple"] {
+        --color-text-base: 0, 0, 0;
+        --color-text-muted: 120, 120, 120;
+        --color-text-inverted: 255, 255, 255;
+        --color-fill: 245, 245, 245;
+        --muted: 200, 200, 200;
+        --color: 128, 0, 128; /* Purple accent color */
+        --color-button-accent: 128, 0, 128; /* Purple accent button */
+        --color-button-accent-hover: 75, 0, 130; /* Darker purple on hover */
+        --color-button-muted: 244, 239, 238;
+    }
     [data-theme="red"] {
       --color-text-base: 28, 25, 23;
       --color-text-muted: 100, 100, 100;
@@ -76,6 +87,17 @@
       --color-button-accent-hover: 0, 185, 255;
       --color-button-muted: 30, 41, 59;
     }
+    [data-theme="purple"] {
+        --color-text-base: 255, 255, 255;
+        --color-text-muted: 150, 150, 150;
+        --color-text-inverted: 255, 255, 255;
+        --color-fill: 18, 18, 18;
+        --muted: 36, 36, 36;
+        --color: 138, 43, 226; /* Purple accent color */
+        --color-button-accent: 138, 43, 226; /* Purple accent button */
+        --color-button-accent-hover: 153, 50, 204; /* Darker purple on hover */
+        --color-button-muted: 26, 26, 26;
+    }
     [data-theme="red"] {
       --color-text-base: 231, 229, 228;
       --color-text-muted: 168, 162, 158;
@@ -85,7 +107,7 @@
       --color: 248, 113, 113;
       --color-button-accent: 248, 113, 113;
       --color-button-accent-hover: 220, 50, 70;
-      --color-button-muted: 120, 113, 108; 
+      --color-button-muted: 120, 113, 108;
     }
     [data-theme="green"] {
       --color-text-base: 230, 230, 230;
